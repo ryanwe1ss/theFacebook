@@ -1,0 +1,67 @@
+/* Entire Webpage */
+.container {
+    display: table;
+    margin: 0 auto;
+    border: 1px solid #3B5998;
+}
+
+/* Login Area */
+.login {
+    display: inline-block;
+    border: 1px dashed #3B5998;
+}
+
+label {
+    display: block;
+    text-align: right;
+}
+
+input {
+    background-color: #E0DEDE;
+    border: 1px groove black;
+}
+
+.login button {
+    background-color: #3477eb;
+    font-size: 15px;
+    color: white;
+
+    margin: auto 1.8em 0.5em;
+    margin-right: -20px;
+}
+
+/* TheFacebook Description */
+.inner {
+    float: right;
+    border: 1px solid #3B5998;
+}
+
+.outer {
+    text-align: center;
+}
+
+h2 {
+    margin-top: auto;
+    font-weight: lighter;
+    background-color: #3B5998;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul:before {
+    content: attr(data-header);
+    margin-left: -1.2em;
+}
+
+.inner button {
+    background-color: #3477eb;
+    font-size: 15px;
+    color: white;
+
+    margin-left: 32%;
+    margin-right: -230px;
+}
